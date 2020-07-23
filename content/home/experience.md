@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Professional Experience"
 subtitle = ""
 
 # Date format for experience
@@ -18,27 +18,38 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Research Assitant"
+  company = "Carleton University Biomedical Informatics Colaboratory"
+  company_url = "https://cu-bic.ca/"
+  location = "Ottawa, Canada"
+  date_start = "2015-09-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  description = """ """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Editor"
+  company = "Cambridge Proofreading"
+  company_url = "https://proofreading.org/"
+  location = "Global"
+  date_start = "2020-01-01"
+  date_end = ""
+  description = """I provide editing services to predominantly English as a Second Language (ESL) clients. Responsible for proofreading academic manuscripts, dissertations, book chapters, and other technical documents."""
 
+[[experience]]
+  title = "Contract Researcher"
+  company = "Agriculture & Agri-Foods Canada"
+  company_url = "https://www.agr.gc.ca/"
+  location = "Ottawa, Canada"
+  date_start = "2017-09-01"
+  date_end = "2020-07-01"
+  description = """ """
+
+[[experience]]
+  title = "Test & Trials Specialist"
+  company = "Galvion (formerly Revision Military)"
+  company_url = "https://www.galvion.com/"
+  location = "Ottawa, Canada"
+  date_start = "2014-06-01"
+  date_end = "2015-06-01"
+  description = """ """
 +++
