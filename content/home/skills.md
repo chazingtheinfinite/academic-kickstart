@@ -17,20 +17,38 @@ subtitle = ""
 [[feature]]
   icon = "python"
   icon_pack = "fab"
-  name = "Python"
-  description = "Expert"
+  name = "Pythonista"
+  description = "lvl: 102"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "server"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "HPC Parrallelizer"
+  description = "lvl: 86"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "file-code"
+  icon_pack = "far"
+  name = "$\\latex$er"
+  description = "lvl:72"
+
+[[feature]]
+  icon = "tree"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "woodworker"
+  description = "lvl:57"
+
+[[feature]]
+  icon = "bicycle"
+  icon_pack = "fas"
+  name = "fixi cyclist"
+  description = "lvl:42"
+
+[[feature]]
+  icon = "pen-fancy"
+  icon_pack = "fas"
+  name = "proofreader"
+  description = "lvl:63"
 
 # Uncomment to use emoji icons.
 # [[feature]]
