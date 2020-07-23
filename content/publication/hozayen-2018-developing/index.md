@@ -1,11 +1,11 @@
 ---
 title: "Developing a Real-Time Patient Monitor Data Import System"
-date: 2018-01-01
-publishDate: 2020-07-22T22:12:44.311747Z
+date: 2018-06-01
+publishDate: 2018-06-01
 authors: ["Mohamed Hozayen", "Shermeen Nizami", "Amente Bekele", "Kevin Dick", "James Green"]
-publication_types: ["2"]
-abstract: ""
+publication_types: ["1"]
+abstract: "This paper develops platform agnostic, user-friendly, open source software applications Patient Monitor Data Importer (PMDI) and parserPMDI to import physiologic data from patient monitors in real-time. These applications form part of a larger research project that is investigating the novel use of the pressure-sensitive mat (PSM) technology for continuous patient monitoring in the neonatal intensive care unit (NICU). To evaluate the potential for PSM for respiration and patient movement detection, gold standard physiologic data are required. This research is being conducted at the Children’s Hospital of Eastern Ontario (CHEO), Ottawa, Canada, where physiologic data are acquired using the Infinity Delta patient monitor series (Dräger Medical, Germany). Currently, one must purchase proprietary data logging software to acquire data from these monitors. The PMDI and parserPMDI have been developed as open source applications in our lab to (a) import multiple physiologic data streams from patient monitors; (b) import alarm data associated with each physiologic data stream; (c) display data parameters and acquisition status in a graphical user interface; (d) export the data in decimal format to a CSV file; (e) be robust to temporary cable disconnections; and (f) facilitate data logging from a variety of patient monitors through modular expansion of the open source code. These interoperable applications programmed in Java communicate with the monitor to import physiologic data in hexadecimal messages. The message is then parsed into a decimal table and stored as a CSV file. Currently, these two applications enable researchers to collect and parse physiologic data from the Dräger Infinity Delta patient monitors. However, their modular design facilitates retargeting to import data from monitoring equipment from other vendors. The current PMDI imports and parses discrete parameters such as heart and pulse rates and discrete alarm events. The Java application source code has been released as open source enabling other researchers to use them for real-time patient data acquisition and analysis."
 featured: false
-publication: "*2018 NCUR*"
+publication: "*2018 Proceedings of the National Conference of Undergraduate Research (NCUR)*"
 ---
 

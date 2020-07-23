@@ -1,10 +1,10 @@
 ---
 title: "Gas Prices of America: The Machine-Augmented Crowd-Sourcing Era"
-date: 2020-01-01
-publishDate: 2020-07-22T22:12:44.308363Z
+date: 2020-06-05
+publishDate: 2020-06-05
 authors: ["Kevin Dick", "François Charih", "Jimmy Woo", "James R Green"]
 publication_types: ["1"]
-abstract: ""
+abstract: "Google Street View (GSV) comprises the largest collection of vehicle-based imagery of the natural environment. With high spatial resolution, GSV has been widely adopted to study the natural environment despite its relatively low temporal resolution (i.e. limited time-series imagery available at a given location). However, vehicular-based imagery is poised to grow dramatically with the prophesied circulation of fleets of highly instrumented autonomous vehicles (AVs), producing high spatio-temporal resolution imagery of urban environments. As with GSV, leveraging these data presents the opportunity to extract information about the lived environment, while their high temporal resolution enables the study and annotation of time-varying phenomena. For example, circulating AVs will often capture location-coded images of gas stations. With a suitable CV system, one could extract the advertised numerical gas prices and automatically update crowd-sourced applications, such as GasBuddy. To this end, we assemble and release the Gas Prices of America (GPA) dataset, a large-scale, benchmark dataset of advertised gas prices from GSV imagery across the 49 mainland United States of America. Comprising 2,048 high quality annotated images, the GPA dataset enables the development and evaluation of CV models for gas price extraction from complex urban scenes. More generally, this dataset provides a challenging benchmark against which CV models can be evaluated for multi-number, multi-digit recognition tasks in the wild. For the digit-level classification task, the YOLO digit detection model trained on the Street View House Numbers dataset performed comparably to a random classifier, highlighting the difficulty of this task. Conversely, for the full-sign segmentation task, transfer learning of a DeepLabV3 ResNet101 model achieved a test F1 performance of 0.7125, following 100 epochs. Highly accurate models, when integrated with AV platforms, will represent the first opportunity to automatically update the traditionally human crowd-sourced GasBuddy dataset, heralding an era of machine-augmented crowd-sourcing. The dataset is available online at cu-bic.ca/gpa and at doi.org/10.5683/SP2/KQ6VNG. Accompanying code can be found at github.com/GreenCUBIC/Gas-Prices-of-America."
 featured: false
 publication: "*2020 17th Conference on Computer and Robot Vision (CRV)*"
 ---
