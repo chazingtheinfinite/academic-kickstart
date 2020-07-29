@@ -44,11 +44,13 @@ subtitle = ""
       data.addColumn('string', 'Dependencies');
 
       data.addRows([
-        ['1718QEII', 'QEII IBM Scholarship', 'Industry - IBM',
+	['16Mitacs', 'Mitacs Globalink Research Grant', 'Miscellaneous',
+         new Date(2016, 8, 14), new Date(2016, 12, 14), null, 100, null],
+        ['1718QEII', 'QEII IBM Scholarship', 'Industry',
          new Date(2017, 9, 1), new Date(2018, 8, 31), null, 100, null],
-        ['1819QEII', 'QEII IBM Scholarship', 'Industry - IBM',
+        ['1819QEII', 'QEII IBM Scholarship', 'Industry',
          new Date(2018, 9, 1), new Date(2019, 8, 31), null, 100, null],
-        ['1920QEII', 'QEII IBM Scholarship', 'Industry - IBM',
+        ['1920QEII', 'QEII IBM Scholarship', 'Industry',
          new Date(2019, 9, 1), new Date(2020, 8, 31), null, 80, null],
         ['17AAFC', 'AAFC Soybean Research Contract', 'Government - AAFC',
          new Date(2017, 9, 1), new Date(2018, 3, 31), null, 100, null],
@@ -63,7 +65,9 @@ subtitle = ""
         ['19NRCan', 'Nat. Res. Canada Grant', 'Government - NRCan',
          new Date(2019, 1, 1), new Date(2019, 3, 31), null, 100, null],
         ['misc18', 'Research Support Grant', 'Miscellaneous',
-         new Date(2018, 5, 1), new Date(2018, 5, 31), null, 100, null]
+         new Date(2018, 5, 1), new Date(2018, 5, 31), null, 100, null],
+	['misc18', 'NSERC Alliance - COVID19 Grant', 'Industry',
+         new Date(2020, 7, 1), new Date(2021, 7, 1), null, 1, null]
       ]);
 
       var options = {
